@@ -1,0 +1,888 @@
+{
+  "a/b testing": [
+    "evaluation frameworks",
+    "experimentation",
+    "hypothesis testing",
+    "statistics"
+  ],
+  "ab testing": [
+    "evaluation frameworks"
+  ],
+  "adapter tuning": [
+    "fine-tuning"
+  ],
+  "airflow": [
+    "data pipeline",
+    "ml pipeline",
+    "mlops"
+  ],
+  "all-minilm": [
+    "embeddings"
+  ],
+  "als": [
+    "matrix factorization",
+    "recommendation systems"
+  ],
+  "ann": [
+    "faiss",
+    "vector database"
+  ],
+  "api design": [
+    "system design"
+  ],
+  "approximate nearest neighbor": [
+    "faiss",
+    "vector database"
+  ],
+  "attention mechanism": [
+    "deep learning"
+  ],
+  "aws": [
+    "aws lambda",
+    "aws s3",
+    "aws sagemaker",
+    "cloud computing",
+    "ec2"
+  ],
+  "aws lambda": [
+    "aws"
+  ],
+  "aws s3": [
+    "aws"
+  ],
+  "aws sagemaker": [
+    "aws"
+  ],
+  "azure": [
+    "azure ml",
+    "cloud computing"
+  ],
+  "azure ml": [
+    "azure"
+  ],
+  "bandit": [
+    "evaluation frameworks"
+  ],
+  "bert": [
+    "embeddings",
+    "hugging face transformers",
+    "neural reranking",
+    "nlp",
+    "roberta",
+    "transformers"
+  ],
+  "bge": [
+    "embeddings"
+  ],
+  "bi-encoder": [
+    "dense retrieval",
+    "information retrieval"
+  ],
+  "big data": [
+    "spark"
+  ],
+  "bigquery": [
+    "gcp"
+  ],
+  "bm25": [
+    "information retrieval",
+    "sparse retrieval",
+    "tfidf"
+  ],
+  "candidate generation": [
+    "recommendation systems",
+    "two-tower model"
+  ],
+  "chain of thought": [
+    "llm"
+  ],
+  "chatgpt": [
+    "gpt",
+    "llm"
+  ],
+  "chroma": [
+    "vector database"
+  ],
+  "chromadb": [
+    "vector database"
+  ],
+  "claude": [
+    "llm"
+  ],
+  "click models": [
+    "evaluation frameworks"
+  ],
+  "cloud computing": [
+    "aws",
+    "azure",
+    "gcp"
+  ],
+  "cnn": [
+    "deep learning"
+  ],
+  "cohere embeddings": [
+    "embeddings"
+  ],
+  "collaborative filtering": [
+    "matrix factorization",
+    "recommendation systems"
+  ],
+  "cross-encoder": [
+    "information retrieval",
+    "neural reranking",
+    "ranking"
+  ],
+  "data analysis": [
+    "pandas"
+  ],
+  "data pipeline": [
+    "airflow",
+    "etl",
+    "feature engineering",
+    "kafka"
+  ],
+  "data warehousing": [
+    "sql"
+  ],
+  "deep learning": [
+    "attention mechanism",
+    "cnn",
+    "fine-tuning",
+    "lstm",
+    "neural networks",
+    "pytorch",
+    "rnn",
+    "tensorflow",
+    "transformers"
+  ],
+  "deepfm": [
+    "recommendation systems"
+  ],
+  "dense retrieval": [
+    "bi-encoder",
+    "embeddings",
+    "hybrid retrieval",
+    "information retrieval"
+  ],
+  "distributed systems": [
+    "kafka",
+    "microservices",
+    "spark",
+    "system design"
+  ],
+  "doc2vec": [
+    "embeddings"
+  ],
+  "docker": [
+    "mlops"
+  ],
+  "document retrieval": [
+    "information retrieval"
+  ],
+  "domain adaptation": [
+    "fine-tuning"
+  ],
+  "dpo": [
+    "fine-tuning"
+  ],
+  "e5": [
+    "embeddings"
+  ],
+  "ec2": [
+    "aws"
+  ],
+  "elasticsearch": [
+    "information retrieval",
+    "lucene",
+    "opensearch",
+    "solr"
+  ],
+  "embeddings": [
+    "all-minilm",
+    "bert",
+    "bge",
+    "cohere embeddings",
+    "dense retrieval",
+    "doc2vec",
+    "e5",
+    "instructor",
+    "mpnet",
+    "openai embeddings",
+    "rag",
+    "roberta",
+    "sbert",
+    "semantic search",
+    "sentence-transformers",
+    "text-embedding-ada",
+    "two-tower model",
+    "vector database",
+    "word2vec"
+  ],
+  "etl": [
+    "data pipeline"
+  ],
+  "evaluation frameworks": [
+    "a/b testing",
+    "ab testing",
+    "bandit",
+    "click models",
+    "interleaving",
+    "map",
+    "mrr",
+    "ndcg",
+    "offline evaluation",
+    "online evaluation",
+    "precision at k",
+    "recall at k",
+    "relevance judgment"
+  ],
+  "experimentation": [
+    "a/b testing"
+  ],
+  "factorization machines": [
+    "recommendation systems"
+  ],
+  "faiss": [
+    "ann",
+    "approximate nearest neighbor",
+    "hnsw",
+    "vector database"
+  ],
+  "fastapi": [
+    "model serving"
+  ],
+  "feature engineering": [
+    "data pipeline",
+    "feature store",
+    "mlops",
+    "xgboost"
+  ],
+  "feature store": [
+    "feature engineering",
+    "mlops"
+  ],
+  "fine-tuning": [
+    "adapter tuning",
+    "deep learning",
+    "domain adaptation",
+    "dpo",
+    "hugging face transformers",
+    "instruction fine-tuning",
+    "llm",
+    "lora",
+    "peft",
+    "pytorch",
+    "qlora",
+    "rlhf",
+    "tensorflow",
+    "transfer learning"
+  ],
+  "flask": [
+    "model serving"
+  ],
+  "foundation models": [
+    "llm"
+  ],
+  "gcp": [
+    "bigquery",
+    "cloud computing",
+    "google cloud",
+    "vertex ai"
+  ],
+  "gemini": [
+    "llm"
+  ],
+  "generative ai": [
+    "llm"
+  ],
+  "google cloud": [
+    "gcp"
+  ],
+  "gpt": [
+    "chatgpt",
+    "gpt-4",
+    "llm",
+    "openai"
+  ],
+  "gpt-4": [
+    "gpt",
+    "llm"
+  ],
+  "gradient boosting": [
+    "learning to rank",
+    "xgboost"
+  ],
+  "grounding": [
+    "rag"
+  ],
+  "hadoop": [
+    "spark"
+  ],
+  "hnsw": [
+    "faiss",
+    "vector database"
+  ],
+  "hugging face transformers": [
+    "bert",
+    "fine-tuning",
+    "nlp",
+    "sentence-transformers",
+    "transformers"
+  ],
+  "hybrid retrieval": [
+    "dense retrieval",
+    "information retrieval",
+    "sparse retrieval"
+  ],
+  "hypothesis testing": [
+    "a/b testing"
+  ],
+  "in-context learning": [
+    "llm"
+  ],
+  "information retrieval": [
+    "bi-encoder",
+    "bm25",
+    "cross-encoder",
+    "dense retrieval",
+    "document retrieval",
+    "elasticsearch",
+    "hybrid retrieval",
+    "lucene",
+    "opensearch",
+    "passage retrieval",
+    "rag",
+    "search",
+    "solr",
+    "sparse retrieval",
+    "tfidf"
+  ],
+  "instruction fine-tuning": [
+    "fine-tuning"
+  ],
+  "instruction tuning": [
+    "llm"
+  ],
+  "instructor": [
+    "embeddings"
+  ],
+  "interleaving": [
+    "evaluation frameworks"
+  ],
+  "item2vec": [
+    "recommendation systems"
+  ],
+  "jupyter": [
+    "python"
+  ],
+  "kafka": [
+    "data pipeline",
+    "distributed systems",
+    "streaming"
+  ],
+  "keras": [
+    "tensorflow"
+  ],
+  "knowledge-augmented generation": [
+    "rag"
+  ],
+  "kubeflow": [
+    "ml pipeline",
+    "mlops"
+  ],
+  "kubernetes": [
+    "mlops"
+  ],
+  "lambdamart": [
+    "ranking"
+  ],
+  "lambdarank": [
+    "ranking"
+  ],
+  "langchain": [
+    "llamaindex",
+    "llm",
+    "openai",
+    "rag"
+  ],
+  "large language models": [
+    "llm"
+  ],
+  "learning to rank": [
+    "gradient boosting",
+    "lightgbm",
+    "ranking",
+    "xgboost"
+  ],
+  "lightgbm": [
+    "learning to rank",
+    "xgboost"
+  ],
+  "listwise ranking": [
+    "ranking"
+  ],
+  "llama": [
+    "llm"
+  ],
+  "llamaindex": [
+    "langchain",
+    "rag"
+  ],
+  "llm": [
+    "chain of thought",
+    "chatgpt",
+    "claude",
+    "fine-tuning",
+    "foundation models",
+    "gemini",
+    "generative ai",
+    "gpt",
+    "gpt-4",
+    "in-context learning",
+    "instruction tuning",
+    "langchain",
+    "large language models",
+    "llama",
+    "mistral",
+    "palm",
+    "prompt engineering",
+    "rag"
+  ],
+  "lora": [
+    "fine-tuning",
+    "peft",
+    "qlora"
+  ],
+  "lstm": [
+    "deep learning"
+  ],
+  "ltr": [
+    "ranking"
+  ],
+  "lucene": [
+    "elasticsearch",
+    "information retrieval"
+  ],
+  "machine learning": [
+    "scikit-learn"
+  ],
+  "map": [
+    "evaluation frameworks"
+  ],
+  "matplotlib": [
+    "python"
+  ],
+  "matrix factorization": [
+    "als",
+    "collaborative filtering",
+    "recommendation systems",
+    "svd"
+  ],
+  "microservices": [
+    "distributed systems",
+    "system design"
+  ],
+  "milvus": [
+    "vector database"
+  ],
+  "mistral": [
+    "llm"
+  ],
+  "ml pipeline": [
+    "airflow",
+    "kubeflow",
+    "mlops"
+  ],
+  "mlflow": [
+    "mlops"
+  ],
+  "mlops": [
+    "airflow",
+    "docker",
+    "feature engineering",
+    "feature store",
+    "kubeflow",
+    "kubernetes",
+    "ml pipeline",
+    "mlflow",
+    "model deployment",
+    "model serving"
+  ],
+  "model deployment": [
+    "mlops",
+    "model serving"
+  ],
+  "model serving": [
+    "fastapi",
+    "flask",
+    "mlops",
+    "model deployment"
+  ],
+  "mpnet": [
+    "embeddings"
+  ],
+  "mrr": [
+    "evaluation frameworks"
+  ],
+  "mysql": [
+    "postgresql",
+    "sql"
+  ],
+  "named entity recognition": [
+    "nlp"
+  ],
+  "natural language processing": [
+    "nlp"
+  ],
+  "ndcg": [
+    "evaluation frameworks"
+  ],
+  "ner": [
+    "nlp"
+  ],
+  "neural collaborative filtering": [
+    "recommendation systems"
+  ],
+  "neural networks": [
+    "deep learning",
+    "pytorch",
+    "tensorflow"
+  ],
+  "neural reranking": [
+    "bert",
+    "cross-encoder",
+    "ranking"
+  ],
+  "nlp": [
+    "bert",
+    "hugging face transformers",
+    "named entity recognition",
+    "natural language processing",
+    "ner",
+    "nltk",
+    "sentiment analysis",
+    "sequence labeling",
+    "sequence to sequence",
+    "spacy",
+    "text classification",
+    "text mining",
+    "text processing"
+  ],
+  "nltk": [
+    "nlp"
+  ],
+  "numpy": [
+    "python",
+    "scipy"
+  ],
+  "offline evaluation": [
+    "evaluation frameworks"
+  ],
+  "online evaluation": [
+    "evaluation frameworks"
+  ],
+  "openai": [
+    "gpt",
+    "langchain"
+  ],
+  "openai embeddings": [
+    "embeddings"
+  ],
+  "opensearch": [
+    "elasticsearch",
+    "information retrieval"
+  ],
+  "pairwise ranking": [
+    "ranking"
+  ],
+  "palm": [
+    "llm"
+  ],
+  "pandas": [
+    "data analysis",
+    "python"
+  ],
+  "passage retrieval": [
+    "information retrieval"
+  ],
+  "peft": [
+    "fine-tuning",
+    "lora"
+  ],
+  "pgvector": [
+    "vector database"
+  ],
+  "pinecone": [
+    "vector database"
+  ],
+  "pointwise ranking": [
+    "ranking"
+  ],
+  "postgresql": [
+    "mysql",
+    "sql"
+  ],
+  "precision at k": [
+    "evaluation frameworks"
+  ],
+  "prompt engineering": [
+    "llm"
+  ],
+  "pyspark": [
+    "spark"
+  ],
+  "python": [
+    "jupyter",
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "python3",
+    "scikit-learn",
+    "scipy",
+    "sklearn"
+  ],
+  "python3": [
+    "python"
+  ],
+  "pytorch": [
+    "deep learning",
+    "fine-tuning",
+    "neural networks",
+    "transformers"
+  ],
+  "qdrant": [
+    "vector database"
+  ],
+  "qlora": [
+    "fine-tuning",
+    "lora"
+  ],
+  "rag": [
+    "embeddings",
+    "grounding",
+    "information retrieval",
+    "knowledge-augmented generation",
+    "langchain",
+    "llamaindex",
+    "llm",
+    "rag pipeline",
+    "retrieval augmented generation",
+    "retrieval-augmented generation",
+    "vector database"
+  ],
+  "rag pipeline": [
+    "rag"
+  ],
+  "ranking": [
+    "cross-encoder",
+    "lambdamart",
+    "lambdarank",
+    "learning to rank",
+    "listwise ranking",
+    "ltr",
+    "neural reranking",
+    "pairwise ranking",
+    "pointwise ranking",
+    "ranknet",
+    "recommendation systems",
+    "relevance ranking",
+    "reranking",
+    "xgboost ranking"
+  ],
+  "ranknet": [
+    "ranking"
+  ],
+  "recall at k": [
+    "evaluation frameworks"
+  ],
+  "recommendation systems": [
+    "als",
+    "candidate generation",
+    "collaborative filtering",
+    "deepfm",
+    "factorization machines",
+    "item2vec",
+    "matrix factorization",
+    "neural collaborative filtering",
+    "ranking",
+    "svd",
+    "two-tower model",
+    "wide & deep"
+  ],
+  "relevance judgment": [
+    "evaluation frameworks"
+  ],
+  "relevance ranking": [
+    "ranking"
+  ],
+  "reranking": [
+    "ranking"
+  ],
+  "retrieval augmented generation": [
+    "rag"
+  ],
+  "retrieval-augmented generation": [
+    "rag"
+  ],
+  "rlhf": [
+    "fine-tuning"
+  ],
+  "rnn": [
+    "deep learning"
+  ],
+  "roberta": [
+    "bert",
+    "embeddings"
+  ],
+  "sbert": [
+    "embeddings",
+    "sentence-transformers"
+  ],
+  "scikit-learn": [
+    "machine learning",
+    "python",
+    "sklearn"
+  ],
+  "scipy": [
+    "numpy",
+    "python"
+  ],
+  "search": [
+    "information retrieval"
+  ],
+  "semantic search": [
+    "embeddings"
+  ],
+  "sentence-transformers": [
+    "embeddings",
+    "hugging face transformers",
+    "sbert"
+  ],
+  "sentiment analysis": [
+    "nlp"
+  ],
+  "sequence labeling": [
+    "nlp"
+  ],
+  "sequence to sequence": [
+    "nlp"
+  ],
+  "sklearn": [
+    "python",
+    "scikit-learn"
+  ],
+  "solr": [
+    "elasticsearch",
+    "information retrieval"
+  ],
+  "spacy": [
+    "nlp"
+  ],
+  "spark": [
+    "big data",
+    "distributed systems",
+    "hadoop",
+    "pyspark"
+  ],
+  "sparse retrieval": [
+    "bm25",
+    "hybrid retrieval",
+    "information retrieval"
+  ],
+  "sql": [
+    "data warehousing",
+    "mysql",
+    "postgresql"
+  ],
+  "statistics": [
+    "a/b testing"
+  ],
+  "streaming": [
+    "kafka"
+  ],
+  "svd": [
+    "matrix factorization",
+    "recommendation systems"
+  ],
+  "system design": [
+    "api design",
+    "distributed systems",
+    "microservices"
+  ],
+  "tensorflow": [
+    "deep learning",
+    "fine-tuning",
+    "keras",
+    "neural networks"
+  ],
+  "text classification": [
+    "nlp"
+  ],
+  "text mining": [
+    "nlp"
+  ],
+  "text processing": [
+    "nlp"
+  ],
+  "text-embedding-ada": [
+    "embeddings"
+  ],
+  "tfidf": [
+    "bm25",
+    "information retrieval"
+  ],
+  "transfer learning": [
+    "fine-tuning"
+  ],
+  "transformers": [
+    "bert",
+    "deep learning",
+    "hugging face transformers",
+    "pytorch"
+  ],
+  "two-tower model": [
+    "candidate generation",
+    "embeddings",
+    "recommendation systems"
+  ],
+  "vector database": [
+    "ann",
+    "approximate nearest neighbor",
+    "chroma",
+    "chromadb",
+    "embeddings",
+    "faiss",
+    "hnsw",
+    "milvus",
+    "pgvector",
+    "pinecone",
+    "qdrant",
+    "rag",
+    "vespa",
+    "weaviate"
+  ],
+  "vertex ai": [
+    "gcp"
+  ],
+  "vespa": [
+    "vector database"
+  ],
+  "weaviate": [
+    "vector database"
+  ],
+  "wide & deep": [
+    "recommendation systems"
+  ],
+  "word2vec": [
+    "embeddings"
+  ],
+  "xgboost": [
+    "feature engineering",
+    "gradient boosting",
+    "learning to rank",
+    "lightgbm"
+  ],
+  "xgboost ranking": [
+    "ranking"
+  ]
+}

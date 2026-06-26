@@ -1,0 +1,110 @@
+# =============================================================
+# Redrobb Ranker — .gitignore
+# =============================================================
+
+# ── CANDIDATE DATA (large + sensitive — never commit) ────────
+candidates.jsonl
+candidates.jsonl.gz
+*.jsonl
+*.jsonl.gz
+
+# Keep the sample file used for CI testing
+!tests/sample_candidates.jsonl
+
+# ── SUBMISSION OUTPUT (your actual answers — don't leak) ─────
+submission.csv
+*.csv
+# Keep the format reference
+!tests/validate_sample.py
+
+# ── PRECOMPUTED ARTIFACTS (large binary files) ───────────────
+data/candidate_embeddings.pkl
+data/skill_embeddings.pkl
+data/candidate_authenticity.pkl
+data/skill_graph.pkl
+*.pkl
+
+# Keep the skill relationship JSON (small, source-controlled)
+!data/skill_related.json
+
+# ── API KEYS & SECRETS ───────────────────────────────────────
+.env
+.env.*
+*.env
+secrets.yaml
+secrets.yml
+config/secrets.py
+api_keys.txt
+credentials.json
+
+# ── PYTHON ───────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# ── JUPYTER / NOTEBOOKS ──────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── IDE & EDITOR ─────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── DOCKER ───────────────────────────────────────────────────
+# Don't ignore Dockerfile or docker-compose.yml — those are safe to commit
+# Ignore local override files
+docker-compose.override.yml
+docker-compose.local.yml
+.docker/
+
+# ── TEST OUTPUTS ─────────────────────────────────────────────
+/tmp/
+*.log
+*.tmp
+test_output/
+output/
+honeypot_report.json
+
+# ── OS ───────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# ── HUGGINGFACE CACHE ────────────────────────────────────────
+.cache/
+~/.cache/huggingface/
+
+# ── SUBMISSION METADATA (has personal info: name, email, phone) ─────
+submission_metadata.yaml
+# Commit submission_metadata.example.yaml instead (safe template)
+
+# Virtual environments
+venv/
+.venv/

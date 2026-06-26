@@ -1,0 +1,58 @@
+# Redrobb Hackathon — Submission Metadata
+# Fill in team name, contact, and repo before submitting
+
+team_name: "Tech Vanguard Project"
+
+primary_contact:
+  name: "Priyal Jain"
+  email: "priyal2004jain@gmail.com"
+  phone: "+91-9910730231"
+
+team_members:
+  - name: "Taha Kapadia"
+    email: "taha.kapadia101@gmail.com"
+    role: "Software Engineer"
+
+  - name: "Pranjal Vishwakarma"
+    email: "blahhh.pv@gmail.com"
+    role: "Software Engineer"
+
+github_repo: "to be added"
+sandbox_link: "to be added"
+
+reproduce_command: "python rank.py --candidates ./candidates.jsonl --out ./submission.csv"
+
+compute:
+  platform: "CPU"
+  cpu_cores: 8
+  ram_gb: 16
+  python_version: "3.11"
+  os: "Linux / macOS / Windows"
+  uses_gpu_for_inference: false
+  has_network_during_ranking: false
+  pre_computation_required: false
+  pre_computation_time_minutes: 0
+
+ai_tools_used:
+  - "Claude"
+
+ai_usage_summary: |
+  Used Claude for architecture discussion and code review.
+  All candidate data was processed locally — no data sent to any LLM.
+  No AI tools used during the actual ranking computation.
+
+methodology_summary: |
+  6-pillar hybrid scoring system. Pillar 1: 11-check honeypot detection
+  (expert+0-duration, YoE mismatch, invalid dates, services-only career, etc).
+  Pillar 2: knowledge-graph semantic skill matching with alias resolution and
+  partial-match credit. Pillar 3: counterfactual fairness for education tiers.
+  Pillar 4: RL-style reward from 23 behavioral signals with behavioral multiplier.
+  Pillar 5: OCEAN personality proxy from platform signals. Pillar 6: JD-agnostic
+  config for any role. Runtime ~90s on CPU. Zero external dependencies.
+
+declarations:
+  read_submission_spec: true
+  code_is_original_work: true
+  no_collusion: true
+  honeypot_check_done: true
+  reproduction_tested: true

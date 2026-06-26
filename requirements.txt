@@ -1,0 +1,23 @@
+# Redrobb Candidate Ranking Engine — Requirements
+# ─────────────────────────────────────────────────
+# CORE RANKER (rank.py) requires NO external packages.
+# All scoring is pure Python 3.10+ stdlib:
+#   json, gzip, csv, heapq, re, argparse, datetime, pathlib, sys
+#
+# This means:
+#   - Zero install time during competition run
+#   - No torch/tensorflow/numpy to load
+#   - Meets the CPU-only, no-network, <5min constraints trivially
+#
+# OPTIONAL: For precompute/build_embeddings.py (run once offline, not during ranking)
+sentence-transformers>=2.2.0
+numpy>=1.24.0
+#
+# OPTIONAL: For precompute/build_skill_graph.py (run once offline)
+networkx>=3.0
+#
+# OPTIONAL: For Streamlit sandbox demo (app.py)
+streamlit>=1.28.0
+#
+# VALIDATION (provided by hackathon organizers)
+# validate_submission.py uses only stdlib — no install needed

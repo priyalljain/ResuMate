@@ -1,0 +1,30 @@
+name: Redrobb Ranker CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Smoke test (all pillars)
+        run: python smoke_test.py
+
+      - name: Run ranker on sample
+        run: python rank.py --candidates tests/sample_candidates.jsonl --out /tmp/test_out.csv
+
+      - name: Validate sample output
+        run: python tests/validate_sample.py /tmp/test_out.csv
+
+      - name: Honeypot checker
+        run: python tools/honeypot_checker.py --candidates tests/sample_candidates.jsonl

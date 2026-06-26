@@ -1,0 +1,22 @@
+version: "3.9"
+
+services:
+  ranker:
+    build: .
+    volumes:
+      - ./candidates.jsonl:/app/candidates.jsonl:ro
+      - ./output:/app/output
+    command: >
+      python rank.py
+      --candidates /app/candidates.jsonl
+      --out /app/output/submission.csv
+    environment:
+      - JD_CONFIG_NAME=redrobb_ai_engineer
+
+  sandbox:
+    build: .
+    ports:
+      - "8501:8501"
+    command: streamlit run app.py --server.port=8501 --server.address=0.0.0.0
+    volumes:
+      - .:/app
