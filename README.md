@@ -31,7 +31,6 @@ Per the architectural design layout, the engine is structured as follows:
 
 ### Run the Ranking Pipeline
 To process a candidate collection data file and compile the final sorted matrix output, execute:
-```bash
 python rank.py --candidates ./candidates.jsonl.gz --out ./submission.csv
 
 ### Validate Submission Format
@@ -39,6 +38,3 @@ Confirm compliance against the official competition requirements using the valid
 
 python validate_submission.py ./submission.csv
 
-
-
-Developed with care by Pranjal Vishwakarma © 2026. All Rights Reserved.
