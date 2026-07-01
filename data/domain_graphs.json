@@ -1,0 +1,200 @@
+{
+  "tech": {
+    "description": "AI/ML/software engineering track. This is the track activated by the released Redrob JD.",
+    "title_signals": [
+      "ai engineer", "ml engineer", "machine learning", "applied scientist", "research engineer",
+      "data scientist", "nlp engineer", "search engineer", "ranking engineer", "recommender",
+      "recommendation", "mlops", "ml infra", "ai infra", "search infrastructure", "platform engineer",
+      "backend engineer", "software engineer", "data engineer", "research scientist"
+    ],
+    "must_have": {
+      "sentence-transformers": 1.0, "sbert": 1.0, "openai embeddings": 1.0, "bge": 0.95, "e5": 0.95,
+      "embeddings": 1.0, "embedding": 1.0, "text embeddings": 1.0, "dense retrieval": 1.0,
+      "retrieval": 0.95, "information retrieval": 0.95, "semantic search": 0.95, "vector search": 1.0,
+      "vector database": 1.0, "vector db": 1.0, "faiss": 1.0, "milvus": 1.0, "pinecone": 1.0,
+      "weaviate": 1.0, "qdrant": 1.0, "opensearch": 0.9, "elasticsearch": 0.9, "hybrid search": 1.0,
+      "hybrid retrieval": 1.0, "bm25": 0.85, "ann": 0.8, "approximate nearest neighbor": 0.8,
+      "ranking": 0.9, "learning to rank": 0.9, "reranking": 0.9, "re-ranking": 0.9,
+      "python": 0.9, "ndcg": 1.0, "mrr": 1.0, "map": 0.7, "a/b testing": 0.9, "ab testing": 0.9,
+      "offline evaluation": 0.9, "evaluation framework": 0.9, "recommendation systems": 0.85,
+      "recommender systems": 0.85, "search relevance": 0.9, "matching": 0.6
+    },
+    "nice_to_have": {
+      "lora": 0.8, "qlora": 0.8, "peft": 0.8, "fine-tuning llms": 0.85, "fine-tuning": 0.6,
+      "llm fine-tuning": 0.85, "xgboost": 0.55, "learning-to-rank": 0.85, "neural ranking": 0.7,
+      "distributed systems": 0.6, "large-scale inference": 0.7, "model serving": 0.55,
+      "kubernetes": 0.35, "spark": 0.3, "rag": 0.85, "retrieval augmented generation": 0.85,
+      "llm": 0.6, "llms": 0.6, "prompt engineering": 0.35, "langchain": 0.25,
+      "open source": 0.4, "transformers": 0.6, "bert": 0.5, "huggingface": 0.5
+    },
+    "anti_fit_cv_speech_robotics": {
+      "image classification": 1.0, "computer vision": 1.0, "object detection": 1.0,
+      "speech recognition": 1.0, "tts": 1.0, "text to speech": 1.0, "asr": 1.0,
+      "robotics": 1.0, "ros": 1.0, "gans": 0.8, "ocr": 0.8, "autonomous driving": 1.0,
+      "slam": 1.0, "lidar": 1.0
+    },
+    "nlp_ir_rescue_terms": {
+      "nlp": 1.0, "natural language processing": 1.0, "information retrieval": 1.0,
+      "search": 0.8, "ranking": 0.8, "embeddings": 1.0, "retrieval": 1.0, "text mining": 0.6
+    },
+    "production_evidence_terms": [
+      "production", "deployed", "deployment", "shipped", "scaled to", "real users", "live traffic",
+      "served millions", "in prod", "rolled out", "launched", "ab test", "a/b test", "online experiment",
+      "drift", "index refresh", "latency", "throughput", "monitored", "on-call"
+    ],
+    "research_only_signals": {
+      "industries": ["academia", "research institute", "research lab", "university"],
+      "titles": ["research scientist", "postdoctoral", "postdoc", "phd candidate", "phd researcher"]
+    },
+    "framework_tutorial_signals": [
+      "langchain tutorial", "built a demo", "side project", "toy project", "tutorial"
+    ],
+    "title_chaser_seniority_words": ["senior", "staff", "principal", "lead", "head of", "director"],
+    "active_verbs": ["architected", "spearheaded", "deployed", "shipped", "built", "designed", "owned", "scaled", "launched", "optimized"],
+    "supportive_verbs": ["assisted", "supported", "contributed", "helped"],
+    "service_firm_industries": ["it services", "consulting", "outsourcing"],
+    "service_firm_names": ["tcs", "infosys", "wipro", "accenture", "cognizant", "capgemini", "hcl", "tech mahindra", "mindtree", "ltimindtree", "mphasis", "l&t infotech"],
+    "preferred_locations": ["pune", "noida"],
+    "welcome_locations": ["hyderabad", "mumbai", "delhi", "delhi ncr", "gurgaon", "gurugram", "noida", "pune"],
+    "country_required": "india"
+  },
+
+  "marketing": {
+    "description": "Marketing / growth track (lighter config; not graded this round).",
+    "title_signals": ["marketing", "growth", "performance marketing", "seo", "brand", "content", "demand generation", "growth hacker"],
+    "must_have": {
+      "performance marketing": 0.9, "customer acquisition": 0.85, "growth hacking": 0.9,
+      "seo": 0.8, "organic growth": 0.8, "roas": 0.9, "cac": 0.9, "ltv": 0.85,
+      "conversion optimization": 0.8, "a/b testing": 0.8, "ab testing": 0.8, "funnel optimization": 0.8
+    },
+    "nice_to_have": {
+      "paid social": 0.6, "google ads": 0.6, "marketing automation": 0.6, "crm": 0.4, "analytics": 0.5
+    },
+    "anti_fit_cv_speech_robotics": {},
+    "nlp_ir_rescue_terms": {},
+    "production_evidence_terms": ["launched", "scaled", "grew", "drove", "increased", "reduced cac"],
+    "research_only_signals": {"industries": [], "titles": []},
+    "framework_tutorial_signals": [],
+    "title_chaser_seniority_words": ["senior", "head of", "director", "vp"],
+    "active_verbs": ["growth-hacked", "scaled", "converted", "orchestrated", "a/b-tested", "drove", "launched"],
+    "supportive_verbs": ["assisted", "supported", "helped"],
+    "service_firm_industries": [],
+    "service_firm_names": [],
+    "preferred_locations": [],
+    "welcome_locations": [],
+    "country_required": null
+  },
+
+  "hr": {
+    "description": "Human Resources / talent track (lighter config; not graded this round).",
+    "title_signals": ["hr", "human resources", "talent acquisition", "recruiter", "people operations", "hrbp"],
+    "must_have": {
+      "talent acquisition": 0.9, "strategic recruitment": 0.85, "hrbp": 0.85,
+      "organizational development": 0.8, "retention": 0.8, "enps": 0.75, "attrition management": 0.8
+    },
+    "nice_to_have": {
+      "hris": 0.6, "compensation benchmarking": 0.5, "onboarding": 0.5, "employee relations": 0.5
+    },
+    "anti_fit_cv_speech_robotics": {},
+    "nlp_ir_rescue_terms": {},
+    "production_evidence_terms": ["reduced attrition", "improved retention", "rolled out", "implemented"],
+    "research_only_signals": {"industries": [], "titles": []},
+    "framework_tutorial_signals": [],
+    "title_chaser_seniority_words": ["senior", "head of", "director", "vp"],
+    "active_verbs": ["restructured", "mediated", "onboarded", "implemented", "retained"],
+    "supportive_verbs": ["assisted", "supported", "helped"],
+    "service_firm_industries": [],
+    "service_firm_names": [],
+    "preferred_locations": [],
+    "welcome_locations": [],
+    "country_required": null
+  },
+
+  "legal": {
+    "description": "Legal track (lighter config; not graded this round).",
+    "title_signals": ["legal", "counsel", "compliance", "paralegal", "attorney", "advocate"],
+    "must_have": {
+      "contract law": 0.85, "compliance": 0.8, "litigation": 0.8, "regulatory": 0.8, "due diligence": 0.75
+    },
+    "nice_to_have": {"corporate law": 0.5, "ip law": 0.5, "negotiation": 0.4},
+    "anti_fit_cv_speech_robotics": {},
+    "nlp_ir_rescue_terms": {},
+    "production_evidence_terms": ["drafted", "negotiated", "filed", "represented", "advised"],
+    "research_only_signals": {"industries": [], "titles": []},
+    "framework_tutorial_signals": [],
+    "title_chaser_seniority_words": ["senior", "head of", "general counsel"],
+    "active_verbs": ["drafted", "negotiated", "advised", "represented", "filed"],
+    "supportive_verbs": ["assisted", "supported", "helped"],
+    "service_firm_industries": [],
+    "service_firm_names": [],
+    "preferred_locations": [],
+    "welcome_locations": [],
+    "country_required": null
+  },
+
+  "medical": {
+    "description": "Medical / healthcare track (lighter config; not graded this round).",
+    "title_signals": ["physician", "doctor", "nurse", "clinical", "medical", "healthcare"],
+    "must_have": {
+      "clinical care": 0.85, "patient management": 0.8, "diagnosis": 0.8, "clinical research": 0.7
+    },
+    "nice_to_have": {"emr": 0.5, "telemedicine": 0.4},
+    "anti_fit_cv_speech_robotics": {},
+    "nlp_ir_rescue_terms": {},
+    "production_evidence_terms": ["treated", "diagnosed", "managed caseload", "led clinical"],
+    "research_only_signals": {"industries": [], "titles": []},
+    "framework_tutorial_signals": [],
+    "title_chaser_seniority_words": ["senior", "chief", "head of"],
+    "active_verbs": ["diagnosed", "treated", "managed", "led"],
+    "supportive_verbs": ["assisted", "supported", "helped"],
+    "service_firm_industries": [],
+    "service_firm_names": [],
+    "preferred_locations": [],
+    "welcome_locations": [],
+    "country_required": null
+  },
+
+  "design": {
+    "description": "Product / visual design track (lighter config; not graded this round).",
+    "title_signals": ["designer", "ux", "ui", "product design", "visual design"],
+    "must_have": {
+      "ux research": 0.85, "interaction design": 0.8, "design systems": 0.8, "prototyping": 0.7, "figma": 0.5
+    },
+    "nice_to_have": {"user testing": 0.5, "accessibility": 0.4},
+    "anti_fit_cv_speech_robotics": {},
+    "nlp_ir_rescue_terms": {},
+    "production_evidence_terms": ["shipped", "launched", "redesigned", "led design"],
+    "research_only_signals": {"industries": [], "titles": []},
+    "framework_tutorial_signals": [],
+    "title_chaser_seniority_words": ["senior", "head of", "director"],
+    "active_verbs": ["designed", "shipped", "led", "redesigned", "prototyped"],
+    "supportive_verbs": ["assisted", "supported", "helped"],
+    "service_firm_industries": [],
+    "service_firm_names": [],
+    "preferred_locations": [],
+    "welcome_locations": [],
+    "country_required": null
+  },
+
+  "creative": {
+    "description": "Creative / content track (lighter config; not graded this round).",
+    "title_signals": ["content writer", "copywriter", "creative", "editor", "content strategist"],
+    "must_have": {
+      "content strategy": 0.8, "copywriting": 0.8, "editorial": 0.7, "storytelling": 0.6
+    },
+    "nice_to_have": {"seo writing": 0.5, "video production": 0.4},
+    "anti_fit_cv_speech_robotics": {},
+    "nlp_ir_rescue_terms": {},
+    "production_evidence_terms": ["published", "wrote", "produced", "launched campaign"],
+    "research_only_signals": {"industries": [], "titles": []},
+    "framework_tutorial_signals": [],
+    "title_chaser_seniority_words": ["senior", "head of", "director"],
+    "active_verbs": ["wrote", "produced", "published", "led"],
+    "supportive_verbs": ["assisted", "supported", "helped"],
+    "service_firm_industries": [],
+    "service_firm_names": [],
+    "preferred_locations": [],
+    "welcome_locations": [],
+    "country_required": null
+  }
+}

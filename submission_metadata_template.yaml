@@ -1,0 +1,85 @@
+# Redrob Hackathon — Submission Metadata Template
+
+# ============================================================================
+# Team identity
+# ============================================================================
+
+team_name: "Tech Vanguard Project"
+
+primary_contact:
+  name: "Priyal Jain"
+  email: "priyal2004jain@gmail.com"
+
+team_members:
+  - name: "Taha Kapadia"
+    email: "taha.kapadia101@gmail.com"
+    role: "Software Engineer"
+
+  - name: "Pranjal Vishwakarma"
+    email: "pranjal.vishwakarma1711@gmail.com"
+    role: "Software Engineer"
+
+# ============================================================================
+# Code and reproducibility
+# ============================================================================
+
+github_repo: "to be added"
+sandbox_link: "to be added"
+
+reproduce_command: "python rank.py --candidates ./candidates.jsonl --out ./submission.csv"
+
+# ============================================================================
+# Compute environment
+# ============================================================================
+
+compute:
+  platform: "MacBook Pro M2"                    
+  cpu_cores: 8                                 
+  ram_gb: 16                                   
+  python_version: "3.11.4"                      
+  os: "macOS 14.2"                             
+  uses_gpu_for_inference: false                 
+  has_network_during_ranking: false             
+  pre_computation_required: false               
+  pre_computation_time_minutes: 0              
+
+# ============================================================================
+# AI tools declaration
+# ============================================================================
+
+ai_tools_used:
+  - "Claude"        # e.g. for architecture discussion, code review
+  - "GitHub Copilot"  # e.g. for autocomplete
+
+ai_usage_summary: |
+  Briefly describe how AI tools were used. Examples:
+  - "Used Claude for code review and architectural discussion. Used Copilot for autocomplete.
+     No candidate data was fed to any LLM."
+  - "Used ChatGPT to debug Python issues and Cursor for refactoring."
+  - "No AI tools used."
+
+# ============================================================================
+# Approach summary (optional but recommended)
+# ============================================================================
+
+methodology_summary: |
+  ≤200 word summary of your approach. Strongly recommended.
+
+  Example:
+  "Rule-based ranker with explicit reasoning capture. Five scoring components
+  (skills, title+career, experience years, location, education) combined with
+  a multiplicative behavioral-signal modifier. The title component is the
+  decisive signal against keyword-stuffer traps; an endorsement-and-duration
+  trust multiplier on skills catches lazy keyword stuffing. Runtime is ~10
+  seconds for 50K candidates on CPU."
+
+# ============================================================================
+# Declarations
+# ============================================================================
+
+declarations:
+  read_submission_spec: true       
+  code_is_original_work: true      
+  no_collusion: true               
+  honeypot_check_done: false        
+  reproduction_tested: true         

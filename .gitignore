@@ -1,0 +1,18 @@
+# --- Python Caches & System Files ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.DS_Store
+Thumbs.db
+
+# --- Large Candidate Data Files (DO NOT PUSH) ---
+*.jsonl
+*.jsonl.gz
+*.csv
+!tests/fixtures/sample_candidates.json
+
+# --- Local ML Model Weights / Caches ---
+.cache/
+huggingface/
+sentence_transformers_cache/
