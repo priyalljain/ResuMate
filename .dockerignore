@@ -1,0 +1,38 @@
+# ==============================================================================
+# HACKATHON OPTIMIZED CONTAINER CONTEXT FILTER
+# Core Goal: Keep build context < 1MB while explicitly preserving pipeline graphs
+# ==============================================================================
+
+# 1. Block heavy Python runtime environments, testing artifacts, and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# 2. Block system metadata and local IDE tracking layers
+.git/
+.github/
+.gitignore
+.dockerignore
+.vscode/
+.idea/
+.DS_Store
+
+# 3. Block model cache states (guarantees clean air-gapped prefetch verification)
+.cache/
+huggingface/
+
+# 4. Block large local datasets, submission outputs, and unneeded documentation
+*.jsonl
+*.jsonl.gz
+*.csv
+*.md
+candidates/
+
+# 5. EXPLICIT EXCEPTIONS (Override rules to allow critical structural assets)
+# Do NOT ignore the essential domain metrics graph file needed for pipeline scoring
+!data/domain_graphs.json

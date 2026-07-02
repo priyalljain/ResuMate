@@ -1,21 +1,24 @@
-FROM python:3.11-slim
+FROM python:3.10-slim
 
+# Setup a clean non-root user for Hugging Face security compliance
+RUN useradd -m -u 1000 user
 WORKDIR /app
 
+# Install dependencies first to utilize Docker layer caching
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Pre-download and cache the SBERT weights into the image layer WHILE
-# network is still available at build time. This is the step that makes
-# offline grading (docker run --network none) work: at runtime,
-# SentenceTransformer('all-MiniLM-L6-v2') resolves entirely from the local
-# HuggingFace cache populated here, with zero outbound requests.
-COPY scripts/prefetch_model.py .
-RUN python prefetch_model.py
+# Copy source code, modules, and pre-compiled data
+COPY src/ ./src/
+COPY data/ ./data/
+COPY app.py rank.py ./
 
-COPY . .
+# Fix storage permissions for Hugging Face runtime instances
+RUN chown -R user:user /app
+USER user
 
-# Single command that reproduces the submission CSV from a candidates file,
-# matching the "single command" requirement in submission_spec.md 10.3.
-ENTRYPOINT ["python", "rank.py"]
-CMD ["--candidates", "/data/candidates.jsonl.gz", "--out", "/data/submission.csv"]
+# Expose the standard port required by Hugging Face / Gradio
+EXPOSE 7860
+
+# Launch the Gradio application dashboard directly
+CMD ["python", "app.py"]
