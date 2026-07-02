@@ -1,5 +1,5 @@
-
-# 🚀 Redrob AI Talent Intelligence Ranker
+#  ResuMate
+# 🚀 Redrob AI Resume Ranker
 
 ## Production-Grade Cascading Retrieval & Behavioral Scoring Engine
 
