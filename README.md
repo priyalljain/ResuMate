@@ -10,7 +10,7 @@ An optimized, network-isolated candidate ranking engine developed for the **Redr
 ## 🔗 Live Production Deployment
 
 Skip local configuration and access the live interactive pipeline interface instantly:
-👉 **[Redrob AI Talent Intelligence Interface on Hugging Face Spaces]** *(https://huggingface.co/spaces/layirp/ResuMate)*
+👉 **[Redrob AI Resume Ranker Interface on Hugging Face Spaces]** *(https://huggingface.co/spaces/layirp/ResuMate)*
 
 ---
 
