@@ -1,6 +1,7 @@
-```markdown
+
 # 🚀 Redrob AI Talent Intelligence Ranker
-### Production-Grade Cascading Retrieval & Behavioral Scoring Engine
+
+## Production-Grade Cascading Retrieval & Behavioral Scoring Engine
 
 An optimized, network-isolated candidate ranking engine developed for the **Redrob AI Hackathon** challenge. This pipeline implements a highly memory-efficient, deterministic **Cascading Funnel Architecture** capable of streaming, filtering, scoring, and explaining 100,000+ candidate records completely offline within ultra-strict compute thresholds via a rich interactive dashboard interface.
 
@@ -9,7 +10,7 @@ An optimized, network-isolated candidate ranking engine developed for the **Redr
 ## 🔗 Live Production Deployment
 
 Skip local configuration and access the live interactive pipeline interface instantly:
-👉 **[Redrob AI Talent Intelligence Interface on Hugging Face Spaces](https://huggingface.co/spaces)** *(Replace with your actual space link)*
+👉 **[Redrob AI Talent Intelligence Interface on Hugging Face Spaces](https://huggingface.co/spaces/layirp/ResuMate)** *(Replace with your actual space link)*
 
 ---
 
@@ -151,7 +152,3 @@ docker run -p 7860:7860 redrob-app
 ```
 
 Once initialized, open your browser and access the interactive application hub at: **`http://localhost:7860`**
-
-```
-
-```
