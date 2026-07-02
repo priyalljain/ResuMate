@@ -1,0 +1,30 @@
+# Block heavy Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Block large local datasets and outputs
+*.jsonl
+*.jsonl.gz
+*.csv
+*.md
+candidates/
+data/
+
+# Block model caches (if you accidentally downloaded them locally)
+.cache/
+huggingface/
+
+# Block system and IDE files
+.git/
+.github/
+.gitignore
+.dockerignore
+.vscode/
+.idea/
+.DS_Store
